@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0464DFDA29221EA7002C5A26 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464DFD829221EA7002C5A26 /* GalleryViewController.swift */; };
+		0464DFDB29221EA8002C5A26 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0464DFD929221EA7002C5A26 /* GalleryViewController.xib */; };
+		0464DFDE29221EE3002C5A26 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464DFDC29221EE3002C5A26 /* WatchViewController.swift */; };
+		0464DFDF29221EE3002C5A26 /* WatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0464DFDD29221EE3002C5A26 /* WatchViewController.xib */; };
+		0464DFE229221F21002C5A26 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464DFE029221F21002C5A26 /* LocationViewController.swift */; };
+		0464DFE329221F21002C5A26 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0464DFE129221F21002C5A26 /* LocationViewController.xib */; };
+		0464DFE629221F45002C5A26 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464DFE429221F45002C5A26 /* BrowseViewController.swift */; };
+		0464DFE729221F45002C5A26 /* BrowseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0464DFE529221F45002C5A26 /* BrowseViewController.xib */; };
+		0464DFEA29221FB6002C5A26 /* AnimalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464DFE829221FB6002C5A26 /* AnimalCollectionViewCell.swift */; };
+		0464DFEB29221FB6002C5A26 /* AnimalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0464DFE929221FB6002C5A26 /* AnimalCollectionViewCell.xib */; };
 		0478DD07291FAF8900818F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478DD06291FAF8900818F06 /* AppDelegate.swift */; };
 		0478DD09291FAF8900818F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478DD08291FAF8900818F06 /* SceneDelegate.swift */; };
 		0478DD0B291FAF8900818F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478DD0A291FAF8900818F06 /* ViewController.swift */; };
 		0478DD0E291FAF8900818F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478DD0C291FAF8900818F06 /* Main.storyboard */; };
 		0478DD10291FAFA000818F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0478DD0F291FAFA000818F06 /* Assets.xcassets */; };
 		0478DD13291FAFA000818F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478DD11291FAFA000818F06 /* LaunchScreen.storyboard */; };
+		047C789329200FA3000382D4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C789229200FA3000382D4 /* SplashViewController.swift */; };
+		047C789529201248000382D4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C789429201248000382D4 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0464DFD829221EA7002C5A26 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		0464DFD929221EA7002C5A26 /* GalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		0464DFDC29221EE3002C5A26 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
+		0464DFDD29221EE3002C5A26 /* WatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchViewController.xib; sourceTree = "<group>"; };
+		0464DFE029221F21002C5A26 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		0464DFE129221F21002C5A26 /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		0464DFE429221F45002C5A26 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		0464DFE529221F45002C5A26 /* BrowseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowseViewController.xib; sourceTree = "<group>"; };
+		0464DFE829221FB6002C5A26 /* AnimalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewCell.swift; sourceTree = "<group>"; };
+		0464DFE929221FB6002C5A26 /* AnimalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalCollectionViewCell.xib; sourceTree = "<group>"; };
 		0478DD03291FAF8900818F06 /* Animalsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animalsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0478DD06291FAF8900818F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0478DD08291FAF8900818F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +46,8 @@
 		0478DD0F291FAFA000818F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0478DD12291FAFA000818F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0478DD14291FAFA000818F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047C789229200FA3000382D4 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		047C789429201248000382D4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0464DFD329221DD2002C5A26 /* AnimalCell */ = {
+			isa = PBXGroup;
+			children = (
+				0464DFE829221FB6002C5A26 /* AnimalCollectionViewCell.swift */,
+				0464DFE929221FB6002C5A26 /* AnimalCollectionViewCell.xib */,
+			);
+			path = AnimalCell;
+			sourceTree = "<group>";
+		};
+		0464DFD429221DE4002C5A26 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				0464DFE429221F45002C5A26 /* BrowseViewController.swift */,
+				0464DFE529221F45002C5A26 /* BrowseViewController.xib */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		0464DFD529221E23002C5A26 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0464DFE029221F21002C5A26 /* LocationViewController.swift */,
+				0464DFE129221F21002C5A26 /* LocationViewController.xib */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		0464DFD629221E37002C5A26 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				0464DFDC29221EE3002C5A26 /* WatchViewController.swift */,
+				0464DFDD29221EE3002C5A26 /* WatchViewController.xib */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		0464DFD729221E4E002C5A26 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				0464DFD829221EA7002C5A26 /* GalleryViewController.swift */,
+				0464DFD929221EA7002C5A26 /* GalleryViewController.xib */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
 		0478DCFA291FAF8800818F06 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +128,13 @@
 				0478DD06291FAF8900818F06 /* AppDelegate.swift */,
 				0478DD08291FAF8900818F06 /* SceneDelegate.swift */,
 				0478DD0A291FAF8900818F06 /* ViewController.swift */,
+				047C789229200FA3000382D4 /* SplashViewController.swift */,
+				047C789429201248000382D4 /* TabBarViewController.swift */,
+				0464DFD729221E4E002C5A26 /* Gallery */,
+				0464DFD629221E37002C5A26 /* Watch */,
+				0464DFD529221E23002C5A26 /* Location */,
+				0464DFD429221DE4002C5A26 /* Browse */,
+				0464DFD329221DD2002C5A26 /* AnimalCell */,
 				0478DD0C291FAF8900818F06 /* Main.storyboard */,
 				0478DD0F291FAFA000818F06 /* Assets.xcassets */,
 				0478DD11291FAFA000818F06 /* LaunchScreen.storyboard */,
@@ -124,9 +200,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0464DFE729221F45002C5A26 /* BrowseViewController.xib in Resources */,
 				0478DD13291FAFA000818F06 /* LaunchScreen.storyboard in Resources */,
+				0464DFE329221F21002C5A26 /* LocationViewController.xib in Resources */,
+				0464DFDB29221EA8002C5A26 /* GalleryViewController.xib in Resources */,
 				0478DD10291FAFA000818F06 /* Assets.xcassets in Resources */,
 				0478DD0E291FAF8900818F06 /* Main.storyboard in Resources */,
+				0464DFEB29221FB6002C5A26 /* AnimalCollectionViewCell.xib in Resources */,
+				0464DFDF29221EE3002C5A26 /* WatchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +221,13 @@
 				0478DD0B291FAF8900818F06 /* ViewController.swift in Sources */,
 				0478DD07291FAF8900818F06 /* AppDelegate.swift in Sources */,
 				0478DD09291FAF8900818F06 /* SceneDelegate.swift in Sources */,
+				0464DFDA29221EA7002C5A26 /* GalleryViewController.swift in Sources */,
+				0464DFEA29221FB6002C5A26 /* AnimalCollectionViewCell.swift in Sources */,
+				047C789529201248000382D4 /* TabBarViewController.swift in Sources */,
+				047C789329200FA3000382D4 /* SplashViewController.swift in Sources */,
+				0464DFE629221F45002C5A26 /* BrowseViewController.swift in Sources */,
+				0464DFDE29221EE3002C5A26 /* WatchViewController.swift in Sources */,
+				0464DFE229221F21002C5A26 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
