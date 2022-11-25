@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeroCollectionViewCell" customModule="Animalsapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="217"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="217"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G5O-Sr-Azb">
+                        <rect key="frame" x="0.0" y="0.0" width="406" height="217"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Africa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j23-zJ-IC0">
+                                <rect key="frame" x="20" y="10" width="366" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ATT-ul-nkB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7Mj-PM-Ijk">
+                                <rect key="frame" x="0.0" y="45" width="406" height="167"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nED-vF-ohx">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="o06-yX-vIg">
+                                <rect key="frame" x="142" y="157" width="122" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="yBO-Y6-dfp"/>
+                                </constraints>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Mj-PM-Ijk" firstAttribute="leading" secondItem="G5O-Sr-Azb" secondAttribute="leading" id="8qk-cS-MvA"/>
+                            <constraint firstAttribute="trailing" secondItem="7Mj-PM-Ijk" secondAttribute="trailing" id="JCD-UX-BfP"/>
+                            <constraint firstAttribute="bottom" secondItem="7Mj-PM-Ijk" secondAttribute="bottom" constant="5" id="Jwg-7f-71e"/>
+                            <constraint firstItem="o06-yX-vIg" firstAttribute="centerX" secondItem="G5O-Sr-Azb" secondAttribute="centerX" id="Qbf-h1-JaW"/>
+                            <constraint firstAttribute="trailing" secondItem="j23-zJ-IC0" secondAttribute="trailing" constant="20" id="YAp-Bv-FZg"/>
+                            <constraint firstItem="7Mj-PM-Ijk" firstAttribute="top" secondItem="j23-zJ-IC0" secondAttribute="bottom" constant="5" id="hak-iR-SjH"/>
+                            <constraint firstItem="j23-zJ-IC0" firstAttribute="leading" secondItem="G5O-Sr-Azb" secondAttribute="leading" constant="20" id="mOA-Fl-0NW"/>
+                            <constraint firstAttribute="bottom" secondItem="o06-yX-vIg" secondAttribute="bottom" constant="30" id="mSk-zj-uso"/>
+                            <constraint firstItem="j23-zJ-IC0" firstAttribute="top" secondItem="G5O-Sr-Azb" secondAttribute="top" constant="10" id="o2R-wH-gla"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="G5O-Sr-Azb" secondAttribute="bottom" id="01O-cz-WAg"/>
+                <constraint firstItem="G5O-Sr-Azb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="My7-si-MzK"/>
+                <constraint firstItem="G5O-Sr-Azb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Y7d-bB-a1q"/>
+                <constraint firstAttribute="trailing" secondItem="G5O-Sr-Azb" secondAttribute="trailing" id="rDf-UG-Bkm"/>
+            </constraints>
+            <size key="customSize" width="406" height="217"/>
+            <connections>
+                <outlet property="heroCollectionView" destination="7Mj-PM-Ijk" id="90Y-O2-YOf"/>
+                <outlet property="pagecontrol" destination="o06-yX-vIg" id="lgX-o5-BzH"/>
+            </connections>
+            <point key="canvasLocation" x="257" y="92"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
